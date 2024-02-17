@@ -1,6 +1,18 @@
 <img width="884" alt="image" src="https://github.com/Hasnake84/osTicket-installation/assets/114637978/d2f9aa9f-77cf-4e39-8897-ec6f6ee9f69a">
 
 # osTicket-installation-configuration
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines)
+- Remote Desktop
+- Internet Information Services (IIS)
+- PHP Manager
+- Rewrite Module
+- VC Redist
+- MySQL
+- Heidi SQL
+- osTicket v1.15.8
 ## Installation Steps
   -  Enable CGI and Common HTTP Features in Windows IIS (Internet Information Services)
      
@@ -18,6 +30,7 @@
      <a href="https://imgur.com/EJjQH05"><img src="https://i.imgur.com//EJjQH05.png" title="source: imgur.com" /></a>
 
   - Install MySQL Server
+
     Typical Setup > Launch Configuration Wizard > Standard Configuration 
  
 
@@ -30,7 +43,7 @@
    - Sites > Default > osTicket > “Browse *:80”
 
      <a href="https://imgur.com/4GvM9Zw"><img src="https://i.imgur.com//4GvM9Zw.png" title="source: imgur.com" /></a>
-  - Rename: ost-config.php
+  - Rename: ost-config.php file
      - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
      - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
  - Install HeidiSQL
