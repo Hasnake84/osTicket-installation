@@ -1,6 +1,6 @@
 <img width="884" alt="image" src="https://github.com/Hasnake84/osTicket-installation/assets/114637978/d2f9aa9f-77cf-4e39-8897-ec6f6ee9f69a">
 
-# osTicket-installation
+# osTicket-installation-configuration
 ## Installation Steps
   -  Enable CGI and Common HTTP Features in Windows IIS (Internet Information Services)
      
