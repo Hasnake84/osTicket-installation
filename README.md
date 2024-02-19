@@ -38,15 +38,16 @@
       - Download osTicket from the Installation Files Folder
       - Extract and copy upload folder to c:\inetpub\wwwroot
       - Within c:\inetpub\wwwroot, Rename upload to osTicket
-
+      - Sites > Default > osTicket > “Browse *:80”
+    
      <a href="https://imgur.com/2SCxdKd"><img src="https://i.imgur.com//2SCxdKd.png" title="source: imgur.com" /></a>
-   - Sites > Default > osTicket > “Browse *:80”
-
      <a href="https://imgur.com/4GvM9Zw"><img src="https://i.imgur.com//4GvM9Zw.png" title="source: imgur.com" /></a>
-  - Rename: ost-config.php file
+  
+  - # Rename: ost-config.php file
      - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
      - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
- - Install HeidiSQL
+  
+  - # Install HeidiSQL
    - Open Heidi SQL
    - New session, root/Password
    - Connect to the session
@@ -56,6 +57,11 @@
      - MySQL Username: root
      - MySQL Password: Password
      - “Install Now”
+
+  - # Sample Issue Ticket opening and closing by agent
+
+      https://github.com/Hasnake84/osTicket-installation-configuration/assets/114637978/92d13dca-715f-427b-bc7e-0c337f9c1d08
+
 
 
 
